@@ -1,0 +1,21 @@
+{
+  "name": "node_examples",
+  "version": "0.0.1",
+  "description": "Node examples",
+  "main": "index.js",
+  "scripts": {
+    "test": "testem",
+    "test-mocha": "mocha -r test/config/setup.js -R spec"
+  },
+  "keywords": [
+    "node",
+    "examples"
+  ],
+  "author": "simplemonk",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "mocha": "^1.20.1",
+    "testem": "^0.6.17"
+  }
+}
